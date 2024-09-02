@@ -1,10 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
-import {cardNames} from '../';
+import CardNames from './components/cardNames/cardNames';
 
 function App() {
   return (
-    <cardNames />
+    <CardNames />
   );
 }
 
